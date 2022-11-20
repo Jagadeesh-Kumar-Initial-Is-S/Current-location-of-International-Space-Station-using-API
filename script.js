@@ -5,10 +5,10 @@
 
 // Asyc function to fetch current cocation of ISS 
 async function loadData001(){
-    const url001 = 'http://api.open-notify.org/iss-now.json?callback=';
+    // const url001 = 'http://api.open-notify.org/iss-now.json?callback=';
 try {
     // Fetch the data
-    const response = await fetch(url001);
+    const response = await fetch(`http://api.open-notify.org/iss-now.json?callback=`);
     const data = await response.json();
     // console.log(data);
     render001(data);
@@ -35,10 +35,10 @@ loadData001();
 
 // Asyc function to fetch number of people on ISS 
 async function loadData002(){
-    const url002 = 'http://api.open-notify.org/astros.json';
+    // const url002 = 'http://api.open-notify.org/astros.json';
 try {
     // Fetch the data
-    const response = await fetch(url002);
+    const response = await fetch(`http://api.open-notify.org/astros.json`);
     const data = await response.json();
     console.log(data);
     render002(data);
