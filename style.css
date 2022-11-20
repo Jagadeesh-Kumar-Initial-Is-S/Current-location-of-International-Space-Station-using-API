@@ -1,0 +1,48 @@
+/* Submitted or coded by Jagadeesh Kumar . S, 
+    you may contact me through my email address which is jagadeesh_2k17@proton.me,
+    kindly contribute some money to my Indian UPI address which is jagadeesh-kumar@ybl . */
+  
+*{
+    /* height: 40vh; */
+    background-color: transparent;
+}
+
+body  {
+    box-shadow: inset 0 0 5rem black;
+    /* background-color: rgb(125, 254, 196); */
+    background-image: url("international-space-station.jpg");
+    height:100%;
+}
+
+.image{
+    justify-content: center;
+    position: absolute;
+    bottom : 0;
+}
+
+#container{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#number{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#people{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width: 0px) and (max-width:1400px){
+    .image{
+        bottom:0;
+        opacity: 0.5;
+    }
+    }
+
+/* Submitted or coded by Jagadeesh Kumar . S, 
+    you may contact me through my email address which is jagadeesh_2k17@proton.me,
+    kindly contribute some money to my Indian UPI address which is jagadeesh-kumar@ybl . */
+  
