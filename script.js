@@ -23,11 +23,11 @@ setTimeout(loadData001, 5000);
 // Function to display the data 
 function render001(verse){
     
-    container.innerHTML = `<h1>The following is the current location of International Space Station for every 5 or five seconds.</h1><br/><h6>
+    container.innerHTML = `<h1>The following is the current location of International Space Station for every 5 or five seconds.</h1><br/><h5>
     Connection is Successful.<br/>
     Latitude: ${verse.iss_position.latitude}.<br/>
     Longitude: ${verse.iss_position.longitude}.<br/>
-    Timestamp: ${verse.timestamp}.</h6><br/>`;
+    Timestamp: ${verse.timestamp}.</h5><br/>`;
 }
 
 // Function to run the data 
